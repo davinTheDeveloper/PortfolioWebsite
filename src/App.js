@@ -17,20 +17,20 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route path="/Home">
+        <Route path="/Home.html">
           <Home />
           <Circles />
           <br />
           <QuoteButton />
           <GenerateQuotes />
         </Route>
-        <Route path="/About">
+        <Route path="/About.html">
           <About />
         </Route>
-        <Route path="/Portfolio">
+        <Route path="/Portfolio.html">
           <Portfolio />
         </Route>
-        <Route path="/Contact">
+        <Route path="/Contact.html">
           <Contact />
         </Route>
       </Switch>
