@@ -6,7 +6,7 @@ function StartButton() {
 
     return (
             <div>
-                <a href="/Main" className="fade-in-text" id="nestedButton">Start Here</a>
+                <a href="/Home" className="fade-in-text" id="nestedButton">Start Here</a>
             </div>
     );
 };
