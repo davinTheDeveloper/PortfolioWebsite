@@ -1,10 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-=======
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Route, Switch } from 'react-router-dom';
->>>>>>> 0f38521b23ff7e9d7aabc5a639fda7e92a356c56
 import Landing from './Landing/Landing';
 import Home from './Home/Home';
 import Circles from './Circles/Circles';
