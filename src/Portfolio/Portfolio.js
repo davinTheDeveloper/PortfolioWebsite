@@ -1,7 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
 
-function Portfolio() {
+const Portfolio = () => {
     return (
         <div className="backColor">
             <div className="Header">
