@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -8,9 +9,9 @@ const Portfolio = () => {
                 <h1 className="headerTitle">Portfolio</h1>
                 <div className="buffer"></div>
                 <div className="linkRespSpace">
-                <a href="/Home" className="homeBtn">Home</a>
+                <Link to="/Home" className="homeBtn">Home</Link>
                 <div className="linkSpace"></div>
-                <a href="https://docs.google.com/document/d/1aEOacQc7OyeAN9hIdmm2ElAZ8FuzaqAeH1slhmeYG3Y/edit?usp=sharing" target="_blank" rel="noreferrer" className="cvBtn">CV/Resume</a>
+                <Link to="https://docs.google.com/document/d/1aEOacQc7OyeAN9hIdmm2ElAZ8FuzaqAeH1slhmeYG3Y/edit?usp=sharing" target="_blank" rel="noreferrer" className="cvBtn">CV/Resume</Link>
                 </div>
                 </div>
                 <div className="commentContainer">
@@ -34,8 +35,8 @@ const Portfolio = () => {
                     <li>Easy navigation / Caring 1st impression</li>
                 </ul>
                 <div className="imgContainer1">
-            <a className="image1" href="https://davinthedeveloper.github.io/nonprofitTemplate/" target="_blank" rel="noreferrer">
-            </a>
+            <Link className="image1" to="https://davinthedeveloper.github.io/nonprofitTemplate/" target="_blank" rel="noreferrer">
+            </Link>
             </div>
             </div>
             <div className="container2">
@@ -48,8 +49,8 @@ const Portfolio = () => {
                 <li>Graphical Bar representing time passed</li>
             </ul>
             <div className="imgContainer2">
-            <a className="image2" href="https://davinthedeveloper.github.io/pomodoro/" target="_blank" rel="noreferrer">
-            </a>
+            <Link className="image2" to="https://davinthedeveloper.github.io/pomodoro/" target="_blank" rel="noreferrer">
+            </Link>
             </div>
             </div>
             <div className="container3">
@@ -62,8 +63,8 @@ const Portfolio = () => {
                 <li>Checks for correct letter case and matching characters</li>
             </ul>
             <div className="imgContainer3">
-            <a className="image3" href="https://davinthedeveloper.github.io/compareCharacters.github.io/" target="_blank" rel="noreferrer">
-            </a>
+            <Link className="image3" to="https://davinthedeveloper.github.io/compareCharacters.github.io/" target="_blank" rel="noreferrer">
+            </Link>
             </div>
             </div>
             </div>
