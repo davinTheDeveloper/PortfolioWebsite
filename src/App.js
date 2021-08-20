@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 import Landing from './Landing/Landing';
 import Home from './Home/Home';
@@ -12,6 +13,7 @@ import './App.css';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Switch>
         <Route exact path="/">
@@ -35,6 +37,7 @@ function App() {
         </Route>
       </Switch>
     </div>
+    </Router>
   );
 }
 
