@@ -19,20 +19,20 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route path="/Home.html">
+        <Route path="/Home">
           <Home />
           <Circles />
           <br />
           <QuoteButton />
           <GenerateQuotes />
         </Route>
-        <Route path="/About.html">
+        <Route path="/About">
           <About />
         </Route>
-        <Route path="/Portfolio.html">
+        <Route path="/Portfolio">
           <Portfolio />
         </Route>
-        <Route path="/Contact.html">
+        <Route path="/Contact">
           <Contact />
         </Route>
       </Switch>
