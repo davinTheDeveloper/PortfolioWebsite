@@ -1,0 +1,51 @@
+#nestedButton {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    grid-column: 2 / 2;
+    grid-row: 3;
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  #aColor.link, #aColor:hover, #aColor:visited {
+    color: black;
+    background-color: white;
+    
+  }
+  .fade-in-text {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 28s;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    -moz-animation: fadeIn 45s;
+    -o-animation: fadeIn 45s;
+    -ms-animation: fadeIn 45s;
+    justify-content: center;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  

@@ -1,0 +1,36 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: solid black;
+    background-color: black;
+    margin: 0;
+}
+
+
+.boxOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: unset;   
+    margin-left: 40%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 3.5em;
+    border: solid black;
+    background-color: white;
+
+}
+
+.davin {
+    display: flex;
+    float: right;
+    filter: grayscale(1);
+    height: 350px;
+    border: solid black;
+}

@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    grid-template-rows: 245px 245px 245px 245px;
+    grid-template-columns: 33%;
+  }
+  
+  .box1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .box2 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+  }
+  
+  .box3 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+  }
+  
+  #fadeOut {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+    animation: fadeOut 5s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+  }
+  
+  .box4 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+   
+  }
+  
+  @keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+       opacity: 0;
+    }
+  }
+  

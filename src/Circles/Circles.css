@@ -1,0 +1,46 @@
+.contain {
+    height: 100%;
+    width: 100%;
+}
+
+.spacing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.circleContainer {
+    display: inline-flex;
+    justify-content: center;
+    color: blue;
+}
+
+#cirLink1:hover {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+#cirLink2:hover {
+    background-color: forestgreen;
+    text-decoration: none;
+    color: white;
+}
+
+#cirLink3:hover {
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+
+.circle1 {
+    color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: white;
+    border: 20px solid black;
+    align-items: center;
+}
+

@@ -1,0 +1,19 @@
+
+
+.quote {
+    background: no-repeat center/80% url(./plainBook.jpeg);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fitQuote {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 3vh;
+    width: 45vw;
+}
+

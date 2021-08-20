@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import Landing from './Landing/Landing';
+import Home from './Home/Home';
+import Circles from './Circles/Circles';
+import QuoteButton from './Quotes/QuoteButton';
+import GenerateQuotes from './Quotes/GenerateQuotes';
+import About from './About/About';
+import Portfolio from './Portfolio/Portfolio';
+import Contact from './Contact/Contact';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+        <Route path="/Home">
+          <Home />
+          <Circles />
+          <br />
+          <QuoteButton />
+          <GenerateQuotes />
+        </Route>
+        <Route path="/About">
+          <About />
+        </Route>
+        <Route path="/Portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="/Contact">
+          <Contact />
+        </Route>
+      </Switch>
     </div>
   );
 }

@@ -1,0 +1,110 @@
+/* Page Header */
+
+.aboutHeader {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: #ef3054;
+}
+
+/* contact title */
+
+.aboutTitle {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 7vh;
+    letter-spacing: 5px;
+}
+
+/* home button */
+
+.HomeBtn {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    font-size: 30px;
+}
+
+/* comments */
+
+.aboutContain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
+    height: 150px;
+}
+
+.aboutComment {
+    display: flex;
+    align-items: center;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 25px;
+    background-color:pink;
+    font-weight: 800;
+    word-wrap: normal;
+    line-break: loose;
+}
+
+.aboutCommentSpace {
+    width: 25px;
+    background-color:pink;
+}
+
+.navAboutSpacing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+/* footer */
+
+.AboutColor {
+    background-color: rgb(255, 223, 223);
+    margin: 0;
+}
+
+#aboutFooter {
+    height: 375px;
+    width: auto;
+    text-align: center;
+}
+
+
+.sentence {
+    font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 1010px) {
+
+    .aboutHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutTitle {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .HomeBtn {
+        justify-content: center;
+        width: auto;
+    }
+
+}

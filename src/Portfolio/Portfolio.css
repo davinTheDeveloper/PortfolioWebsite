@@ -1,0 +1,291 @@
+/* Page Header */
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: #69b569;
+}
+
+/* header title */
+
+.headerTitle {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 7vh;
+    letter-spacing: 5px;
+}
+
+.buffer {
+    width: 100%;
+}
+
+.linkRespSpace {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* home button */
+
+.homeBtn {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    font-size: 3vh;
+}
+
+.linkSpace {
+    display: flex;
+    justify-content: center;
+    width: 45px;
+}
+
+.cvBtn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+    width: auto;
+    font-size: 3vh;
+    margin-right: 15px;
+}
+
+/* comments */
+
+.commentContainer {
+    display: flex;
+    flex-direction: row;
+    background-color:#c4e6c4;
+}
+
+.commentSpace {
+    float: left;
+    width: 25%;
+    background-color:#c4e6c4;
+}
+
+.comments {
+    font-size: 25px;
+    background-color:#c4e6c4;
+    font-weight: 800;
+    word-wrap: normal;
+}
+
+.comment {
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.commentEndSpace {
+    float: left;
+    width: 25%;
+    background-color: #c4e6c4;
+}
+
+/* portfolios container */
+
+.fit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    margin-top: 15px;
+    background-color: #d7e9d7;
+}
+
+/* non profit template */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 33%;
+}
+
+
+.title1 {
+    text-align: center;
+}
+
+.list1 {
+    width: 100%;
+    height: auto;
+}
+
+.imgContainer1 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.image1 {
+    border: solid black 10px;
+    background-image: url('./ngo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    cursor: pointer;
+    height: 150px;
+    width: 250px;
+}
+
+/* pomodoro project */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 33%;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.list2 {
+    width: 100%;
+    height: auto;
+}
+
+.imgContainer2 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.image2 {
+    border: solid black 10px;
+    background-image: url('./pomodoro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    cursor: pointer;
+    height: 150px;
+    width: 250px;
+}
+
+
+/* matching characters game */
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 33%;
+}
+
+.title3 {
+    text-align: center;
+}
+
+.list3 {
+    width: 100%;
+    height: auto;
+}
+
+.imgContainer3 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.image3 {
+    border: solid black 10px;
+    background-image: url('./matchChars.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    cursor: pointer;
+    height: 150px;
+    width: 250px;
+}
+
+/* footer */
+
+.backColor {
+    background-color: #d7e9d7;
+    margin: 0;
+}
+
+#portfolioFooter {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1010px) {
+
+    .Header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerTitle {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .homeBtn {
+        justify-content: center;
+        width: auto;
+    }
+
+    .linkRespSpace {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .linkSpace {
+        width: 25px;
+    }
+
+    .fit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        width: auto;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        width: auto;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        width: auto;
+    }
+    
+}
+    
