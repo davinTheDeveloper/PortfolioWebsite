@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Circles.css';
 
 const Circles = () => {
@@ -7,9 +8,9 @@ const Circles = () => {
         <div className="contain">
             <br />
             <nav className="spacing">
-            <a className="circleContainer circle1" id="cirLink1" href="/About">About</a>
-            <a className="circleContainer circle1" id="cirLink2" href="/Portfolio">Portfolio</a>
-            <a className="circleContainer circle1" id="cirLink3" href="Contact">Contact</a>
+            <Link className="circleContainer circle1" id="cirLink1" to="/About">About</Link>
+            <Link className="circleContainer circle1" id="cirLink2" to="/Portfolio">Portfolio</Link>
+            <Link className="circleContainer circle1" id="cirLink3" to="Contact">Contact</Link>
             </nav>
         </div>
     );
