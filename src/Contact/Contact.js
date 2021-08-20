@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 
 
-function Contact() {
+const Contact = () => {
     return (
         <div className="backgColor">
             <div className="contactHeader">
