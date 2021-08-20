@@ -2,7 +2,7 @@ import React from 'react';
 import './QuoteButton.css';
 import GenerateQuotes from './GenerateQuotes';
 
-function QuoteButton() {
+const QuoteButton = () => {
 
     return (
         <div className="QuoteBtnContainer">

@@ -4,7 +4,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import "./Landing.css";
 import StartButton from '../StartButton/StartButton';
 
-function Landing() {
+const Landing= () => {
     return (
 
         <div className="container">

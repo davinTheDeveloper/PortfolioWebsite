@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 
-function About() {
+const About = () => {
     return (
         <div className="AboutColor">
             <div className="aboutHeader">
                 <h1 className="aboutTitle">About</h1>
-                <a href="/Home" className="HomeBtn">Home</a>
+                <Link to="/Home" className="HomeBtn">Home</Link>
             </div>
             <div className="aboutContain">
                 <div className="aboutComment">What the heck is a Davin Henrik?</div>

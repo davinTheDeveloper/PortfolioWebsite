@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Landing from './Landing/Landing';
 import Home from './Home/Home';
 import Circles from './Circles/Circles';
@@ -12,6 +12,7 @@ import './App.css';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Switch>
         <Route exact path="/">
@@ -35,6 +36,7 @@ function App() {
         </Route>
       </Switch>
     </div>
+    </Router>
   );
 }
 
