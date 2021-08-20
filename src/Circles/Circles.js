@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Circles.css';
 
-const Circles = () =>//#endregion"Seconfdpapvieanngrg {
+const Circles = () => {
 
     return (
         <div className="contain">
