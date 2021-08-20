@@ -2,7 +2,7 @@ import React from 'react';
 import "./StartButton.css";
 
 
-function StartButton() {
+const StartButton = () => {
 
     return (
             <div>
