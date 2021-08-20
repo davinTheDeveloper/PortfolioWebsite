@@ -2,7 +2,7 @@ import React from 'react';
 import './GenerateQuotes.css';
 import QuotesList from './QuotesList';
 
-function GenerateQuotes() {
+const GenerateQuotes = () => {
 
         let answer = Math.floor(Math.random() * QuotesList.length);
 
