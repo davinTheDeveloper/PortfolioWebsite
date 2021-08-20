@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/">
           <Landing />
         </Route>
-        <Route path="/Home">
+        <Route path="/Main">
           <Home />
           <Circles />
           <br />
