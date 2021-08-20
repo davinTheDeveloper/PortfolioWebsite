@@ -16,12 +16,11 @@ const Contact = () => {
                 <div className="contactComment">Let me know what you thought!</div>
                 </div>
             <nav className="navContactSpacing">
-                <Link to="https://github.com/davinTheDeveloper" target="_blank" rel="noreferrer noopener" className="emailLink">
-                </Link>
-                <Link to="https://www.linkedin.com/in/davinhenrik/" target="_blank" rel="noreferrer noopener" className="gitLink">
-                </Link>
-                <Link to="mailto:davin.henrik@gmail.com" target="_blank" rel="noreferrer noopener" className="linkedinLink">
-                </Link>
+                <a href='mailto:davinthedeveloper@gmail.com' target="_blank" rel="noreferrer noopener" className="emailLink"> </a>
+                <a href='https://github.com/davinTheDeveloper' target="_blank" rel="noreferrer noopener" className="gitLink">
+                </a>
+                <a href='https://www.linkedin.com/in/davinhenrik/' target="_blank" rel="noreferrer noopener" className="linkedinLink">
+                </a>
             </nav>
             <div className="backgColor" id="contactFooter">
 

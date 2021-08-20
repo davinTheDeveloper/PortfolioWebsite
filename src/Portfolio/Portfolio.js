@@ -11,7 +11,7 @@ const Portfolio = () => {
                 <div className="linkRespSpace">
                 <Link to="/Home" className="homeBtn">Home</Link>
                 <div className="linkSpace"></div>
-                <Link to="https://docs.google.com/document/d/1aEOacQc7OyeAN9hIdmm2ElAZ8FuzaqAeH1slhmeYG3Y/edit?usp=sharing" target="_blank" rel="noreferrer" className="cvBtn">CV/Resume</Link>
+                <a href="https://docs.google.com/document/d/1aEOacQc7OyeAN9hIdmm2ElAZ8FuzaqAeH1slhmeYG3Y/edit?usp=sharing" target="_blank" rel="noreferrer" className="cvBtn">CV/Resume</a>
                 </div>
                 </div>
                 <div className="commentContainer">
@@ -33,20 +33,19 @@ const Portfolio = () => {
                     <li>Landing page w/ working hamburger</li>
                     <li>Easy navigation / Caring 1st impression</li>
                 <div className="imgContainer1">
-            <Link className="image1" to="https://davinthedeveloper.github.io/nonprofitTemplate/" target="_blank" rel="noreferrer">
-            </Link>
+            <a className="image1" href="https://davinthedeveloper.github.io/nonprofitTemplate/" target="_blank" rel="noreferrer">
+            </a>
             </div>
             </div>
             <div className="container2">
-            <h2 className="title2">Pomodoro Timer</h2>
+            <h2 className="title2">Encryption Programs</h2>
                 <li>React, CSS, HTML5</li>
-                <li>Play/Pause/Stop Buttons</li>
-                <li>Adjustable Time</li>
-                <li>Counter display</li>
-                <li>Graphical Bar representing time passed</li>
+                <li>Caesar, Polybuis, Substitution Methods</li>
+                <li>Encode/Decode</li>
+                <li>Output Display</li>
             <div className="imgContainer2">
-            <Link className="image2" to="https://davinthedeveloper.github.io/pomodoro/" target="_blank" rel="noreferrer">
-            </Link>
+            <a className="image2" href="https://davinthedeveloper.github.io/decoderCyphers/" target="_blank" rel="noreferrer">
+            </a>
             </div>
             </div>
             <div className="container3">
@@ -57,8 +56,8 @@ const Portfolio = () => {
                 <li>Find and input those characters</li>
                 <li>Code checks for matches and letter case</li>
             <div className="imgContainer3">
-            <Link className="image3" to="https://davinthedeveloper.github.io/compareCharacters.github.io/" target="_blank" rel="noreferrer">
-            </Link>
+            <a className="image3" href="https://davinthedeveloper.github.io/compareCharacters.github.io/" target="_blank" rel="noreferrer">
+            </a>
             </div>
             </div>
             </div>
