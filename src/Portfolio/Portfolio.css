@@ -264,8 +264,6 @@
 
     }
 
-    
-
     .container1 {
         margin: 5px;
         width: auto;
@@ -304,3 +302,10 @@
     
 }
     
+
+@media screen and (max-width: 600px){
+
+
+
+
+}

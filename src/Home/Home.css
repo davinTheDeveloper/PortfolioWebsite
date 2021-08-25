@@ -7,30 +7,57 @@
     margin: 0;
 }
 
-
-.boxOne {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: unset;   
-    margin-left: 40%;
-}
-
 .name {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     font-size: 3.5em;
+    float: right;
+    width: 75%;
     border: solid black;
-    background-color: white;
+    background: 
+    linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: white;
 
 }
 
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .davin {
+    background-image: url('../davin.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     float: right;
-    filter: grayscale(1);
+    filter: grayscale(.8);
     height: 350px;
+    width: 25%;
     border: solid black;
+}
+
+@media screen and (max-width: 575px) {
+
+    .homeContainer {
+        flex-direction: column;
+    }
+
+
+    .davin {
+        float: none;
+        height: 150px;
+    }
 }
