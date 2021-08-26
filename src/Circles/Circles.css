@@ -64,4 +64,41 @@
         margin: 5px;
     }
 
+    .circle1 {
+        color: white;
+        border-radius: 0;
+        margin: 0;
+        width: 100%;
+        height: 150px;
+        background: white;
+        border: 5px solid black;
+        align-items: center;
+    }
+
+    #cirLink1 {
+        background: 
+        linear-gradient(45deg, transparent 0%, transparent 57%, #423246 100%),
+        linear-gradient(-45deg, #8f5046 0%, #a14436 0.3%, #4c2556 112%, transparent 11%),
+        linear-gradient(-90deg, #A14436 100%, #A14436 65%, transparent 20% );
+        text-decoration: none;
+        color: white;
+
+    } 
+    #cirLink2 {
+        background: 
+        linear-gradient(45deg, transparent 0%, transparent 57%, #324638 100%),
+        linear-gradient(-45deg, #4c8f46 0%, #42a136 0.3%, #275625 112%, transparent 11%),
+        linear-gradient(-90deg, #36a148 100%, #36a14d 65%, transparent 20% );
+        text-decoration: none;
+        color: white;
+    } 
+    #cirLink3 {
+        background:
+        linear-gradient(45deg, transparent 0%, transparent 57%, #323b46 100%),
+        linear-gradient(-45deg, #464d8f 0%, #3836a1 0.3%, #262556 112%, transparent 11%),
+        linear-gradient(-90deg, #4636a1 100%, #3646a1 65%, transparent 20% );
+        text-decoration: none;
+        color: white;
+    }
+
 }
