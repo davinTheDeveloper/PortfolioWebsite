@@ -13,7 +13,7 @@
 
 .fitQuote {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 3vh;
+    font-size: calc(1.5vw + 1.5vh);
     width: 45vw;
 }
 
