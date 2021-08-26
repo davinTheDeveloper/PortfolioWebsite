@@ -31,11 +31,11 @@ const About = () => {
             </div>
             <div className="AboutColor" id="aboutFooter">
                 <div className="PortfolioLink">
-            <Link to="/Portfolio" className="PortLink1">Portfolio Page --></Link>
+            <Link to="/Portfolio" className="PortLink1">Portfolio Page</Link>
             </div>
                 <div className="mediaFooter">
                 <Link to="/Home" className="HomeBtn2">Home</Link>
-                <Link to="/Portfolio" className="PortLink2">Portfolio Page --></Link>
+                <Link to="/Portfolio" className="PortLink2">Portfolio Page</Link>
                 </div>
             </div>
         </div>

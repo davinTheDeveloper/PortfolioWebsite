@@ -220,6 +220,28 @@
     margin: 0;
 }
 
+.aboutLink {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.AboutLink1 {
+    color: black;
+    text-decoration-line: none;
+}
+
+.ContactLink1 {
+    color: black;
+    text-decoration-line: none;
+}
+
+.mediaPortfolio {
+    display: none;
+}
+
 #portfolioFooter {
     height: 150px;
     width: 100%;
@@ -257,7 +279,6 @@
 
     .fit {
         flex-direction: column;
-        /* justify-content: center; */
         margin-top: 0;
         border-top: solid black;
         box-sizing: border-box;
@@ -302,7 +323,6 @@
     
 }
     
-
 @media screen and (max-width: 600px){
 
 

@@ -62,6 +62,16 @@ const Portfolio = () => {
             </div>
             </div>
             <div className="backColor" id="portfolioFooter">
+                <div className="aboutLink">
+                    <Link to="/About" className="AboutLink1"> About Page </Link>
+                    <br />
+                    <Link to="/Contact" className="ContactLink1">Contact Page</Link>
+                </div>
+                <div className="mediaPortfolio">
+                <Link to="/About" className="AboutLink1"> About Page</Link>
+                    <br />
+                    <Link to="/Contact" className="ContactLink1">Contact Page</Link>
+                    </div>
             </div>
         </div>
     )

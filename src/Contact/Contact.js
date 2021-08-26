@@ -23,6 +23,9 @@ const Contact = () => {
                 </a>
             </nav>
             <div className="backgColor" id="contactFooter">
+                <div className="mediaContact">
+                    <Link to="/Portfolio" className="contactMediaLink1">Portfolio Page</Link>
+                </div>
 
             </div>
         </div>
