@@ -31,6 +31,10 @@
     font-size: 30px;
 }
 
+.mediaHomeBtn {
+    display: none;
+}
+
 /* comments */
 
 .aboutContain {
@@ -44,6 +48,7 @@
 
 .aboutComment {
     display: flex;
+    justify-content: center;
     align-items: center;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 25px;
@@ -51,12 +56,9 @@
     font-weight: 800;
     word-wrap: normal;
     line-break: loose;
+    width: 50%;
 }
 
-.aboutCommentSpace {
-    width: 25px;
-    background-color:pink;
-}
 
 .textAboutSpacing {
     display: flex;
@@ -89,9 +91,21 @@
     text-align: center;
 }
 
+.PortfolioLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
 
-.sentence {
-    font-family: 'Indie Flower', cursive;
+.PortLink1 {
+    text-decoration-line: none;
+    color: black;
+}
+
+.mediaFooter {
+    display: none;
 }
 
 @media screen and (max-width: 1010px) {
@@ -109,10 +123,39 @@
     }
 
     .HomeBtn {
-        justify-content: center;
-        width: auto;
+        display: none;
     }
 
+    .HomeBtn2 {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        text-decoration-line: none;
+        color: black;
+        font-size: 30px;
+    }
+
+        .PortfolioLink {
+            display: none;
+        }
+
+        .mediaFooter {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100%;
+            width: auto;
+        }
+
+    .PortLink1 {
+        display: none;
+    }
+
+    .PortLink2 {
+        text-decoration-line: none;
+        color: black;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -125,8 +168,41 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        line-height: calc(1.25rem + 2vw);
-        font-size: calc(1rem + .75vw);
+        line-height: calc(1rem + 2vw);
+        font-size: calc(.5rem + 1vw);
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+        background: 
+        linear-gradient(to right, rgba(255,0,0,0), rgb(255, 70, 70));
+        flex-wrap: wrap; 
+    }
+    
+    .listFormat {
+        list-style-type: none;
+        padding: 0;
+        
+    }
+
+    ol {
+        /* display: flex;
+        justify-content: center;
+        width: 100%; */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textAboutSpacing {
+        display: none;
+    }
+
+    .textAboutSpacing2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: calc(2rem + 2vw);
+        font-size: calc(2rem - 1vw);
         height: auto;
         width: 100%;
         margin-top: 50px;
