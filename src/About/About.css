@@ -72,7 +72,9 @@
     linear-gradient(to right, rgba(255,0,0,0), rgb(255, 70, 70));
 }
 
-
+.textAboutSpacing2 {
+    display: none;
+}
 
 /* footer */
 
@@ -106,13 +108,30 @@
         margin: 5px;
     }
 
-    .textAboutSpacing {
-        flex-direction: column;
-    }
-
     .HomeBtn {
         justify-content: center;
         width: auto;
     }
 
+}
+
+@media screen and (max-width: 800px) {
+    .textAboutSpacing {
+        display: none;
+    }
+
+    .textAboutSpacing2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: calc(1.25rem + 2vw);
+        font-size: calc(1rem + .75vw);
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+        background: 
+        linear-gradient(to right, rgba(255,0,0,0), rgb(255, 70, 70));
+        flex-wrap: wrap; 
+    }
 }

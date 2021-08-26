@@ -19,8 +19,14 @@ const About = () => {
             <br />It was at this time I decided to invest in my passion for web development. 
             <br />Between joining a coding bootcamp, self-teaching, and finally working with a mentor,
             <br /> I am ready to start my new profession as a Software Developer.
-
             </nav>
+           
+            <div className="textAboutSpacing2">I'm a Software Developer who is proficient in multiple development languages.
+            I am a glass half full person who enjoys building professional relationships with others.
+            During COVID my job ended and I became a stay-at-home dad for my two kids. It was at this time 
+            I decided to invest in my passion for web development. Between joining a coding bootcamp, self-teaching, 
+            and finally working with a mentor,  am ready to start my new profession as a Software Developer.</div>
+       
             <div className="AboutColor" id="aboutFooter">
                 
             </div>
